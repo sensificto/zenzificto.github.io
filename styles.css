@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* horizontally center in the container */
+    justify-content: center; /* vertically center, if needed */
+  }
+
+  .header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* OR applying to specific elements */
+  h1, h2{
+    font-family: 'Belanosima';
+    font-size: 100px;
+  }
+
+  p {
+    font-family: 'Belanosima';
+    font-size: 40px;
+  }
+
+  .description {
+    margin-bottom: 20px;
+  }
+
+  .themes {
+    margin-bottom: 20px;
+  }
+
+  .examples {
+    margin-bottom: 20px;
+  }
+
+ 
+
+  button {
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c457b1;
+}
+
+.centered-footer {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    height: 100px;           /* Or whatever height you want */
+    margin-top: 40px;
+}
+
+  /* Resize for tablet devices */
+@media (max-width: 768px) {
+  .container img {
+    width: 200px;
+  }
+}
+
+/* Resize for mobile devices */
+@media (max-width: 480px) {
+  .container img {
+    width: 150px;
+  }
+}
