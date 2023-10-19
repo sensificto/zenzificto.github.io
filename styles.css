@@ -82,3 +82,11 @@ button:hover {
     width: 150px;
   }
 }
+
+#logo {
+  width: 100px;  /* Adjust this value based on the size you want for your logo */
+  height: auto;
+  transition: transform 0.3s ease;  /* Smoothens the rotation */
+  transform-origin: center;
+}
+
