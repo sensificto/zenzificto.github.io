@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@700&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -23,6 +25,7 @@ body {
   h1, h2{
     font-family: 'Belanosima';
     font-size: 100px;
+    font-weight: 700px;
   }
 
   p {
