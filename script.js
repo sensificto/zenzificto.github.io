@@ -6,7 +6,8 @@ function updateRotation() {
     const scrollPercentage = (lastScrollY / (document.body.scrollHeight - window.innerHeight));
     const rotationDegree = 360 * scrollPercentage;
     logo.style.transform = `rotate(${rotationDegree}deg)`;
-    logo.style.webkitTransform = `rotate(${rotationDegree}deg)`;  
+    logo.style.webkitTransform = `rotate(${rotationDegree}deg)`; 
+
 }
 
 // Debounce function
