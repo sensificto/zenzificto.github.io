@@ -1,7 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Report School';
+    src: url('fonts/Report School Bold Italic.woff2') format('woff2'),
+         url('fonts/Report School Bold Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Report School';
+    src: url('fonts/Report School Bold.woff2') format('woff2'),
+         url('fonts/Report School Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Report School';
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -24,13 +39,13 @@ body {
 
   /* OR applying to specific elements */
   h1, h2{
-    font-family: 'Belanosima';
+    font-family: 'Report School';
     font-size: 100px;
     font-weight: 700;
   }
 
   p {
-    font-family: 'Belanosima';
+    font-family: 'Report School';
     font-size: 40px;
   }
 
