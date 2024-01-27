@@ -17,7 +17,7 @@
 
 body {
     font-family: 'Report School';
-    background-color: #05D9B1;
+    background-color: #03595A;
     margin: 0;
     padding: 0;
     -webkit-overflow-scrolling: touch;
@@ -65,7 +65,7 @@ body {
   button {
     padding: 10px 15px;
     background-color: #FFC056;
-    color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
